@@ -1,22 +1,17 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Palindrome Checker
+A palindrome word checker. 
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+**Link to project:** palindrome-word-checker:
 
-### How to submit your code for review:
+![palindrom checker website](https://user-images.githubusercontent.com/102004376/168593196-5a781ce4-a102-4ec2-98f8-1dc00b6e10d4.JPG)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Node.js
+
+To begin building this, everything was programmed on the front end. Once the checker was working, I moved the checking functionality to the server.js. To reverse the word I took the input as a string and used the methods of split, reverse, and join. The new word was then compared against the original.
+
+
+## Lessons Learned:
+
+Something breaking is not the end of the world. This is one of my first node.js projects so it was an adjustment getting to know the terminal and all the pretty new error messages. I was initially slower with this as I worried about throwing things off balance but after the first fiew breaks, I leaned in and had fun getting the checker to work.
